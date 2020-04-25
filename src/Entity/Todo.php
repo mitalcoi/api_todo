@@ -30,6 +30,7 @@ class Todo
     public function __construct(string $id)
     {
         $this->id = $id;
+        $this->completed = false;
     }
 
     public function getId(): string
